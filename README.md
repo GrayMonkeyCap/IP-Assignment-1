@@ -1,5 +1,7 @@
 # IP-Assignment-1
 
+Problem Statement: Blogging Website
+
 1a--> Webpage using HTML and Bootstrap
 
 1b--> Webpage using HTML5 and CSS
