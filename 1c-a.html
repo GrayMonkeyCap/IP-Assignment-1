@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1c a</title>
+    <link rel="stylesheet" href="1c-a.css">
+</head>
+<body>
+    <div class='navbar'>
+        <a href="" >BlogPoint</a>
+        <div class='navlinks'>
+            <a href="">Home</a>
+            <a href="#blogs">Featured Blogs</a>
+            <a href="/feed">Feed</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    <div class=contact>
+            <div class='header'>Contact Us</div>
+            <form name="contactForm" id="contactForm">
+            <div>Name</div>
+            <input name='name' type='text' onblur="checkname()">
+            <div>Email Address</div>
+            <input name='email' type='text' onblur="checkemail()">
+            <div>Age</div>
+            <input name='age' type='text' onblur="checkage()">
+            <div>Query</div>
+            <textarea rows="4" cols="22" name="query"></textarea>
+            <button type="submit">Send</button>
+        </form>
+        </div>
+    <script src="1c-a.js"></script>
+</body>
+</html>

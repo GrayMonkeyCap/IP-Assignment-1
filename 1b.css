@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    background: whitesmoke;
+    color: #393E46;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FF9292;
+    height: 50px;
+}
+
+.navbar a{
+    font-size: 25px;
+    color:whitesmoke;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navbar a:hover{
+    color:yellow
+}
+
+.header{
+    font-size: 28px;
+    font-weight: 900;
+    margin:10px 0 10px 0;
+}
+
+#blogs,.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-content{
+    display: flex;
+    width: 100%;
+}
+
+.text{
+    width: 50%;
+    padding: 20px;
+}
+.image{
+    width: 50%;
+}
+.image img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.blog-content{
+    display: flex;
+}
+.blog-card{
+    width:25%;
+    height:370px;
+    text-align: center;
+    background: #ffdedc;
+}
+.blog-card:hover{
+    background-color: palegoldenrod;
+}
+.blog-card img{
+    width: 100%;
+    height:200px;
+    object-fit: cover;
+}
+
+.blog-card-header{
+    font-weight: 900;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.blog-card-desc{
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: rgb(109, 108, 108);
+}
+button{
+    border: 0;
+    border-radius: 5px;
+    font-weight: 800;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #FF9292;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.footer>div{
+    text-align: center;
+    margin: 0 40px 0 40px;
+    max-width: 120px;
+}
+.footer-links{
+    width: 60px;
+    display: flex;
+    justify-content: space-around;
+}
